@@ -1,0 +1,219 @@
+.header-top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-image: url("../images/bgHeader2.png");
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: auto 105px;
+}
+
+.contentHeader {
+    position: relative;
+}
+
+.searchFormHeader {
+    display: none;
+}
+
+.logotipoProjeto {
+    margin: 0 0 0 275px;
+    width: 100px;
+    height: 100px;
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+}
+
+.header-nav ul {
+    margin: 31px;
+}
+
+.header-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+
+}
+
+.header-nav a {
+    color: #393939;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: color 0.3s linear;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.header-nav a:hover {
+    color: #0001FE;
+}
+
+.iconSearch {
+    height: 17px;
+    width: 17px;
+}
+
+.animatedContent img {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+}
+
+.paginacao {
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.paginacao ul {
+    margin: 60px;
+}
+
+.paginacao li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.paginacao a {
+    color: #393939;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    font-weight: bold;
+}
+
+.paginacao a:hover {
+    color: #0001FE;
+}
+
+.prev img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+}
+
+.next img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+
+.endPage {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.endContent {
+    width: 100%;
+    height: 400px;
+    background-color: #011c3a;
+    background-image: url(../images/bgFooter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.columns {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: block;
+}
+
+.columns li {
+    margin: 10px 0;
+}
+
+.columns a {
+    color: #b1afaf;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.columns a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.columnFoot {
+    position: relative;
+    float: left;
+    padding: 0 2.4%;
+    width: 20%;
+    min-height: 300px;
+    border-left: 1px solid #444;
+}
+
+.columnFoot h1 {
+    font-size: 20px;
+}
+
+.columnFoot form {
+    border: 1px solid #b1afaf;
+    margin: 20px 0;
+    padding: 10px 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    overflow: hidden;
+}
+
+.columnFoot form ::placeholder {
+    color: #b1afaf;
+}
+
+.columnFoot input {
+    float: left;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+}
+
+.buttonSearch {
+    position: absolute;
+    right: 0;
+    width: 21px;
+    height: 21px;
+    background-image: url(../images/lupa-removebg.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.columnFoot form label {
+    display: none;
+}
+
+.logotipo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 215px;
+    width: 215px;
+}
+
+.footer {
+    margin: 35px auto;
+    text-align: center;
+}
