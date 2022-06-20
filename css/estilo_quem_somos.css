@@ -1,0 +1,86 @@
+.titleHolder {
+    background-color: rgba(201, 204, 206, 0.349);
+    display: table;
+    height: 80px;
+    width: 100%;
+}
+
+.pageName {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.pageName a {
+    color: #393939;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s linear;
+    font-weight: bold;
+    height: 50px;
+}
+
+.pageName a:hover {
+    color: #0001fe;
+}
+
+.us {
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.img_us {
+    width: 50%;
+    margin: 5px;
+}
+
+.img_us img {
+    border: 5px dashed lightblue;
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 45%;
+    height: 90%;
+    text-align: justify;
+    font-family: "Comic Sans MS", "Times New Romam", "Arial", "sans-serif";
+    padding: 0 15px;
+    border: 5px dashed lightblue;
+}
+
+.text h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.galeria {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Comic Sans MS", "Times New Romam", "Arial", "sans-serif";
+
+    margin-bottom: 50px;
+}
+
+.galeria h1 {
+    padding: 15px;
+    font-size: 30px;
+    border: 5px dashed lightblue;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.galeria img {
+    width: 31%;
+    margin: .5% .5%;
+    height: 350px;
+}
